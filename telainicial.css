@@ -73,12 +73,13 @@ main{
 }
 
 .text-bx h1{
-    width: 40%;
+    width: 100%;
 }
 
 .text-bx h1{
     font-size: 3rem;
     text-transform: uppercase;
+
 }
 
 .text-bx h1 b{
@@ -92,7 +93,7 @@ main{
 }
 
 .img-bx{
-    width: 60%;
+    width: 90%;
 }
 
 .img-bx img{
