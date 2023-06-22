@@ -6,27 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="telainicial.css" rel="stylesheet"/>
     <title>ALPHA TRANSMISSION</title> 
-
 </head>
 <body>
     <div class="container"> 
         <!--navbar-->
         <nav>
             <div class="logo">
-                <a href="telainicial.html"> Alpha Conection </a>
+                <a href="index.html"> Alpha Conection </a>
             </div>
             <ul>
                 <li> <a href="#"> Home</a></li>
-                <li> <a href="#"> Suporte</a></li>
-                <li> <a href="#"> Chamada</a></li>
+                <li> <a href="ajuda.html"> Suporte</a></li>
+                <li> <a href="suporte.html"> Chamada</a></li>
             </ul>
             <div class="menu-icon">
                 <img src="imagens/menuicon.png">
             </div>
         </nav>
-
             <!--final do navbar-->
-
             <main>
             <div class="text-bx">
             <h1>Veja em tempo real <b> quem está presente </b> </h1>
@@ -36,12 +33,9 @@
            da presença de ponto, possuindo RFID no nosso sistema. 
             </p>
             </div>
-
     <div class="img-bx">
         <img src="imagens/gato.png">
     </div>    
-
             </main>
         </div>
-
 <script src="telainicial.js"></script>
