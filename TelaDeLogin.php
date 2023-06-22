@@ -17,8 +17,11 @@
         <img src="imagens/ALPHA (1).png" alt="">
 
 
-        <form action="">
-
+        <form method="post" action="logon.php">
+        <?php
+  if(isset($_GET['msg'])) {?>
+  <div class="alert" role="alert">ERRO</div>
+ <?php }?>
             <div>
                 <input class="email" type="text" name="email" id="email" placeholder="Digite seu email">  
             </div>
@@ -45,16 +48,15 @@
 						<select id="cidade">
 							<option value="">Modulo</option>
 						</select>
+                        <button type="submit">ENTRAR</button>
+
 					</div>
 					<form>
                         
                   
                     </head>
                     <body>
-                        <div id="btn" class="magic">
-                            <a href="telainicial.html">ENTRAR</a>
-                        </div>
-                   
+                
                     </body>
                     </html>    
   <div id="content" >
