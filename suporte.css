@@ -146,6 +146,37 @@ main{
     }
 }
 
+.table tr {
+    color: #000000;
+    font-weight: 70000;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(37, 35, 35);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+    
+.table th {
+    color: #000000;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(37, 35, 35);
+    padding: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    margin-left: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
 
 
 
